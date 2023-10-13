@@ -31,6 +31,7 @@ public class Main {
     public static void main(String[] args) {
         // input three side lengths of a triangle
         double a = 0, b = 0, c = 0;
+
         boolean isValid = true;
         Scanner scanner = new Scanner(System.in);
 
@@ -49,8 +50,6 @@ public class Main {
         }catch (Exception e){
             isValid = false;
             System.out.println(e.getMessage());
-        }catch (java.util.InputMismatchException e) {
-            System.err.println("Invalid input. Please enter a valid number.");
         }
         finally {
             scanner.close();
