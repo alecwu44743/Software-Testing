@@ -79,19 +79,17 @@ public class Main {
             }
         }
 
-        if (isValid) {
-            System.out.println("The three sides of the triangle are " + a + ", " + b + ", and " + c);
+        System.out.println("The three sides of the triangle are " + a + ", " + b + ", and " + c);
 
-            // check the type of triangle, and print the result
-            Main main = new Main();
-            int result = main.checkTriangle(a, b, c);
-            if (result == 1) {
-                System.out.println("This is an equilateral triangle");
-            } else if (result == 2) {
-                System.out.println("This is an isosceles triangle");
-            } else {
-                System.out.println("This is a scalene triangle");
-            }
+        // check the type of triangle, and print the result
+        Main main = new Main();
+        int result = main.checkTriangle(a, b, c);
+        if (result == 1) {
+            System.out.println("This is an equilateral triangle");
+        } else if (result == 2) {
+            System.out.println("This is an isosceles triangle");
+        } else {
+            System.out.println("This is a scalene triangle");
         }
     }
 }
