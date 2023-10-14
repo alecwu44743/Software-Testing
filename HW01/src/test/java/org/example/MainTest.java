@@ -25,6 +25,7 @@ class MainTest {
     @org.junit.jupiter.api.Test
     void checkTriangle() {
         System.out.println("[+] Here is checkTriangle test");
+        System.out.println("0 -> not a triangle");
         System.out.println("1 -> equilateral triangle");
         System.out.println("2 -> isosceles triangle");
         System.out.println("3 -> scalene triangle");
@@ -40,6 +41,7 @@ class MainTest {
         assertEquals(3, main.checkTriangle(6, 3, 5), "Should be scalene triangle");
         assertEquals(1, main.checkTriangle(6, 6, 6), "Should be equilateral triangle");
         assertEquals(2, main.checkTriangle(6, 6, 3), "Should be isosceles triangle");
+        assertEquals(0, main.checkTriangle(6, 6, 12), "Should be not a triangle");
 
         System.out.println("[v] checkTriangle test passed\n");
     }

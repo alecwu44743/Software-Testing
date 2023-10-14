@@ -103,7 +103,7 @@ public class Person {
             throw new Exception("Day of birth cannot be less than 1 or greater than 31");
         }
         else{
-            if (year == currentDate.getYear()) {
+            if (year == currentDate.getYear()) { // check if year of birth is current year
                 if (month == currentDate.getMonthValue()) {
                     if (day > currentDate.getDayOfMonth()) {
                         throw new Exception("Day of birth cannot be greater than current day");
@@ -111,19 +111,19 @@ public class Person {
                 }
             }
             else{
-                if (month == 2) {
+                if (month == 2) { // check if month of birth is February
                     if (isLeapYear(year)) {
-                        if (day > 29) {
+                        if (day > 29) { // if leap year
                             throw new Exception("Day of birth cannot be greater than 29");
                         }
                     }
                     else{
-                        if (day > 28) {
+                        if (day > 28) { // if not leap year
                             throw new Exception("Day of birth cannot be greater than 28");
                         }
                     }
                 }
-                else if (month == 4 || month == 6 || month == 9 || month == 11) {
+                else if (month == 4 || month == 6 || month == 9 || month == 11) { // check if month of birth is April, June, September, or November
                     if (day > 30) {
                         throw new Exception("Day of birth cannot be greater than 30");
                     }

@@ -16,7 +16,10 @@ public class Main {
 
     // check if a triangle is equilateral, isosceles, or scalene
     int checkTriangle(double a, double b, double c) {
-        if (a == b && b == c) {
+        if (a + b <= c || b + c <= a || a + c <= b) {
+            return 0; // not a triangle
+        }
+        else if (a == b && b == c) {
             return 1; // equilateral triangle
         } else if (a == b || b == c || a == c) {
             return 2; // isosceles triangle
@@ -84,7 +87,10 @@ public class Main {
         // check the type of triangle, and print the result
         Main main = new Main();
         int result = main.checkTriangle(a, b, c);
-        if (result == 1) {
+        if (result == 0) {
+            System.out.println("This is not a triangle");
+        } // not a triangle (sum of two sides <= third side)
+        else if (result == 1) {
             System.out.println("This is an equilateral triangle");
         } else if (result == 2) {
             System.out.println("This is an isosceles triangle");
