@@ -3,6 +3,8 @@ package org.example;
 import org.junit.jupiter.api.BeforeEach;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.TestWatcher;
 import org.junit.jupiter.api.extension.ExtensionContext;
@@ -11,7 +13,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 
 class MainTest {
-    // print the pass or fail message
+    // print the pass or fail message abc
 
     Main main = new Main();
 
@@ -23,6 +25,7 @@ class MainTest {
     }
 
     @org.junit.jupiter.api.Test
+    @DisplayName("╯°□°）╯")
     void checkTriangle() {
         System.out.println("[+] Here is checkTriangle test");
         System.out.println("0 -> not a triangle");
