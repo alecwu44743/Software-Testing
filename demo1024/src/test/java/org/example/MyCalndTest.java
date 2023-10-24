@@ -19,4 +19,11 @@ class MyCalndTest {
         MyCalnd myCalnd = new MyCalnd();
         assertEquals(res, myCalnd.myDays(month, day));
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/daytest.csv", numLinesToSkip = 1)
+    void myDaysTest_withfile(int m, int n, String res) {
+        MyCalnd myCalnd = new MyCalnd();
+        assertEquals(res, myCalnd.myDays(m, n));
+    }
 }
