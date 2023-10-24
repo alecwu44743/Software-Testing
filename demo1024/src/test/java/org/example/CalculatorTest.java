@@ -1,10 +1,7 @@
 package org.example;
 
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.EmptySource;
-import org.junit.jupiter.params.provider.NullSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -45,6 +42,13 @@ class CalculatorTest {
             "-1, -2, -3"
     })
     void addTest(int a, int b, int c) {
+        Calculator calculator = new Calculator();
+        assertEquals(c, calculator.add(a, b));
+    }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/testfile.csv", numLinesToSkip = 1)
+    void addTest_withfile(int a, int b, int c) {
         Calculator calculator = new Calculator();
         assertEquals(c, calculator.add(a, b));
     }
