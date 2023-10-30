@@ -15,7 +15,7 @@ public class BMI {
     }
 
     public double calculateBMI() {
-        return this.weight / ((this.height/100) * (this.height/100));
+        return this.weight / ((this.height/100) * (this.height/100)); // height is in cm, so need to divide by 100
     }
 
     public double getHeight() {
@@ -28,7 +28,7 @@ public class BMI {
         return this.bmi;
     }
     public String showMyInfo() {
-        DecimalFormat df = new DecimalFormat("0.00");
+        DecimalFormat df = new DecimalFormat("0.00"); // to show only 2 decimal places
         String correctBmi = df.format(this.bmi);
         String correctHeight = df.format(this.height);
         String correctWeight = df.format(this.weight);
@@ -58,12 +58,12 @@ public class BMI {
         while (true){
             System.out.print("Enter your height in cm: ");
             try {
-                height = Double.parseDouble(scanner.next());
+                height = Double.parseDouble(scanner.next()); // read the double
                 heightCheck(height);
                 break; // will only get to here if input was a double
-            } catch (NumberFormatException ignore) {
+            } catch (NumberFormatException ignore) { // if input was not a double
                 System.out.println("Invalid input");
-            }catch (Exception e){
+            }catch (Exception e){ // prints the error message
                 System.out.println(e.getMessage());
             }
         }
@@ -71,12 +71,12 @@ public class BMI {
         while (true){
             System.out.print("Enter your weight in kg: ");
             try {
-                weight = Double.parseDouble(scanner.next());
+                weight = Double.parseDouble(scanner.next()); // read the double
                 weightCheck(weight);
                 break; // will only get to here if input was a double
-            } catch (NumberFormatException ignore) {
+            } catch (NumberFormatException ignore) { // if input was not a double
                 System.out.println("Invalid input");
-            }catch (Exception e){
+            }catch (Exception e){ // prints the error message
                 System.out.println(e.getMessage());
             }
         }
