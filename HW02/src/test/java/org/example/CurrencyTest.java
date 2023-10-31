@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -8,7 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class CurrencyTest {
 
-    @ParameterizedTest
+    @DisplayName("Test for Currency Calculation")
+    @ParameterizedTest(name = "{index} => currency1={0}, amount1={1}, currency2={2}, amount2={3}, resCurrency={4}, resAmount={5}")
     @CsvSource({
             "USD, 100, NTD, 3000, USD, 200",
             "NTD, 3000, USD, 100, NTD, 6000",
@@ -24,7 +26,8 @@ class CurrencyTest {
         assertEquals(resAmount, res.amount);
     }
 
-    @ParameterizedTest
+    @DisplayName("Test for Currency Calculation")
+    @ParameterizedTest(name = "{index} => currency={0}, amount={1} -> res={2}")
     @CsvSource({
             "USD, 100, Amount: 100.00 USD",
             "NTD, 3000, Amount: 3000.00 NTD",

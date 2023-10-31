@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
@@ -8,7 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TomorrowTest {
 
-    @ParameterizedTest
+    @DisplayName("Test for nextDay")
+    @ParameterizedTest(name = "{index} => inputDate={0}, nextDate={1}")
     @CsvSource({
             "2021-01-01, 2021-01-02",
             "2021-01-31, 2021-02-01",
