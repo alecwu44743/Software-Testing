@@ -26,7 +26,7 @@ class CurrencyTest {
         assertEquals(resAmount, res.amount);
     }
 
-    @DisplayName("Test for Currency Calculation")
+    @DisplayName("Test for getCurrency")
     @ParameterizedTest(name = "{index} => currency={0}, amount={1} -> res={2}")
     @CsvSource({
             "USD, 100, Amount: 100.00 USD",
