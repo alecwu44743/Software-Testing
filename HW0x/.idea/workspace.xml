@@ -5,7 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b853527-d7b8-42fc-b8df-6e59f9c849fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/Test Results - MainTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/Test Results - PersonTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/src/main/java/org/example/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/src/test/java/org/example/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW01/src/test/java/org/example/PersonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/java/org/example/BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/java/org/example/Currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/java/org/example/MyCalendar2021.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/java/org/example/Tomorrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/main/resources/test_myDays.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/test/java/org/example/BMITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/test/java/org/example/CurrencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/test/java/org/example/MyCalendar2021Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW02/src/test/java/org/example/TomorrowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/baseball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/baseballTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoftwareTesting - D1009331 - HW01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoftwareTesting - D1009331 - HW02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/java/org/example/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/java/org/example/Date.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/java/org/example/MyCalnd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/resources/daytest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/main/resources/testfile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/test/java/org/example/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/test/java/org/example/DateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1024/src/test/java/org/example/MyCalndTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/src/main/java/org/example/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/src/main/java/org/example/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit5-dev/src/test/java/org/example/CalculatorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
